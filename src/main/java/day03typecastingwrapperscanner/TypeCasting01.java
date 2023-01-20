@@ -1,4 +1,4 @@
-package day03typecastingscanner;
+package day03typecastingwrapperscanner;
 
 public class TypeCasting01 {
     public static void main(String[] args) {
