@@ -1,4 +1,4 @@
-package arrays;
+package practices.arrays;
 
 import java.util.Scanner;
 
@@ -20,7 +20,7 @@ public class Arrays05 {
         int counter=0;
         for(String w: strArr){
 
-            if (w.startsWith("s") || w.startsWith("S")){
+            if (w.startsWith("e") || w.startsWith("E")){
 
                 counter++;
             }

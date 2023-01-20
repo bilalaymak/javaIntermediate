@@ -1,4 +1,4 @@
-package arrays;
+package practices.arrays;
 
 import java.util.Arrays;
 
@@ -20,11 +20,9 @@ public class Arrays01 {
 
         //1.way:
         for (int w : ages) {
-
             if (w < 10) {
                 System.out.print(w + " ");//6 -8 2
             }
-
         }
 
         //2.way:
@@ -38,7 +36,7 @@ public class Arrays01 {
                 break;
 
             } else {
-                System.out.print(w + " ");
+                System.out.print(w + " ");//6 -8 2
             }
 
 

@@ -1,4 +1,4 @@
-package arrays;
+package practices.arrays;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,17 +14,13 @@ public class Arrays04 {
          */
 
         String[] arr = {"John", "Brad", "Angel", "Sofia", "Emily"};
-
         String[] brr = {"sofia", "brad", "grace", "emily", "hazel"};
 
         List<String> list= new ArrayList<>();
-
         for (String w: arr){
             for (String u: brr ){
                 if (w.equalsIgnoreCase(u)){
-
                     list.add(u);
-
                 }
             }
 
