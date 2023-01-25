@@ -3,7 +3,7 @@ package day15arraylists;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArrayLists01 {
+public class ArrayList01 {
     public static void main(String[] args) {
 
 
