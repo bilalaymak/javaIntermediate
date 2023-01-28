@@ -38,8 +38,9 @@ public class MethodOverLoading01 {
         return a*b;
     }
 
-    //Create a method multiplies one int and one double
+    //Create a method that multiplies one integer and one double
     private static double multiply(int a, double b){
+        //return type of the method must be the greater return type, that is double
         return a*b;
     }
 
