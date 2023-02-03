@@ -1,4 +1,4 @@
-package day21inheritance.vehicle;
+package day21inheritanceoverriding.vehicle;
 
 public class VehicleRunner {
 

@@ -1,4 +1,4 @@
-package day21inheritance.animal;
+package day21inheritanceoverriding.animal;
 
 public class AnimalRunner {
     public static void main(String[] args) {

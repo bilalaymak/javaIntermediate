@@ -1,4 +1,4 @@
-package day21inheritance.animal;
+package day21inheritanceoverriding.animal;
 
 public class Mammal extends Animal{
     public int age = 6;
