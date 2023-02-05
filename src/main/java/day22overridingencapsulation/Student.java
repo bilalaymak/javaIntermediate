@@ -1,5 +1,7 @@
 package day22overridingencapsulation;
 
+import java.util.Arrays;
+
 public class Student {
     public static void main(String[] args) {
 
@@ -11,10 +13,6 @@ public class Student {
          we use getter to read hiding data
 
   */
-
-
-
-
 
 
 
