@@ -21,7 +21,7 @@ public class Animal {
         8)Between the "primitive data types" there is no "parent-child relationship"
           that is why you cannot have "IS-A" relationship
           If you do not have "IS-A" relationship you cannot change return type in "Method Overriding"
-        9)If the return type is void you cannot change it in method overriding  ***
+        9)If the return type is void, you cannot change it in method overriding  ***
         10)"private" methods in "parent class" cannot be overridden
         11)"static" method cannot be overridden
 

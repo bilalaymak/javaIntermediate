@@ -9,14 +9,14 @@ public class Cat extends Mammal{
     }
 
     @Override
-    public Cat create() {
+    public Cat create() {//the name of overriding method name can be also Animal
         //When you change the "return type" in "method overriding",
         //from child to parent you must have "IS-A" relationship.
         return new Cat();
     }
 
     @Override
-    public Cat occur() {
+    public Mammal occur() {//the name of overriding method name can be also Mammal but not Animal
     //Return Type of the Overridden Method can be
     //the "top return type" of the Overriding Method
         return new Cat();
