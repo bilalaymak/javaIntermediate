@@ -1,4 +1,4 @@
-package day22overridingencapsulation;
+package day22overridingencapsulation.animal;
 
 public class Cat extends Mammal{
 

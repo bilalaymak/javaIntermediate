@@ -1,4 +1,4 @@
-package day22overridingencapsulation;
+package day22overridingencapsulation.student;
 
 import java.util.Arrays;
 

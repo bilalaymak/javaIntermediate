@@ -1,4 +1,4 @@
-package day23encapsulationabstraction;
+package day23encapsulationabstraction.student;
 
 public class StudentRunner {
 
