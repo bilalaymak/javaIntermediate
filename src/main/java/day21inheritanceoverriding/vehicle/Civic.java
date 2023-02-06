@@ -7,12 +7,12 @@ public class Civic extends Vehicle{
     }
 
     public Civic() {
-        super(String.valueOf(2022));
+        super("2022");
         System.out.println("Civic constructor...");
     }
 
     public Civic(boolean hybrid){
-        this();
+       this();
         System.out.println("Civic constructor with boolean parameters");
     }
 

@@ -20,10 +20,13 @@ public class Vehicle {
         12)"this()" and "super()" cannot be used in the same constructor together, because
            if you put anyone into the first line the other cannot be put into the first line.
 
-        13)If a variable exist in a Class Java uses the variable from the class itself
-        14)If a class does not have the requested variable in it, Java looks for the variable in the parent classes
-        15)If you use "this" inside the constructor, it means you are calling a variable from the class itself
-        16)If you use "super" inside the constructor, it means you are calling a variable from the first level parent class
+        13)If a variable exist in a Class, Java uses the variable from the class itself
+        14)If a class does not have the requested variable in it,
+           Java looks for the variable in the parent classes
+        15)If you use "this" inside the constructor,
+           it means you are calling a variable from the class itself
+        16)If you use "super" inside the constructor,
+           it means you are calling a variable from the first level parent class
 
         What is the difference between "this()" and "super()"?
         Answer:"this()" is for calling constructor from the class itself.
@@ -59,7 +62,7 @@ public class Vehicle {
     }
 
     public Vehicle(String name){
-        this();
+        this();//this() keyword means call the constructor without parameter in this class
         System.out.println("Vehicle constructor with String parameter");
     }
 
