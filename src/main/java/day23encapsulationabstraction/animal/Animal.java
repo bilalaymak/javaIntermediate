@@ -44,6 +44,17 @@ public abstract class Animal {
              that is why Java does not let make an abstract method "private"
           14)An "abstract method" cannot be "static"
           15)Same rule in Overriding are valid for implementing abstract methods.
+
+
+          Abstract methods are used to provide a blueprint(method without body) for methods
+          that must be created in any subclass that extends the abstract class.
+          They allow you to define a common interface
+          for a group of related classes without having to specify the implementation of the methods.
+          This helps to ensure that the correct methods are implemented in each subclass,
+          leading to a more organized and maintainable codebase.
+
+
+
       */
 
     public abstract void eat();
