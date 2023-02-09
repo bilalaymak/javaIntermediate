@@ -1,4 +1,4 @@
-package practices.inheritance.mathematics;
+package practices.oop.inheritance.mathematics;
 
 public class Runner {
 
