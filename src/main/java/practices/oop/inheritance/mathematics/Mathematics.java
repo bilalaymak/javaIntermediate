@@ -6,7 +6,7 @@ public class Mathematics {
     public double multiply(double... x) {
         double result = 1;
         for (double w : x) {
-            result *= w;
+            result *= w;  //result = result * w;
         }
         return result;
     }

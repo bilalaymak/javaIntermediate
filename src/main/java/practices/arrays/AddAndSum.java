@@ -2,7 +2,7 @@ package practices.arrays;
 
 import java.util.Arrays;
 
-public class Arrays03 {
+public class AddAndSum {
     public static void main(String[] args) {
 
 

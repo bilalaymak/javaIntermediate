@@ -2,7 +2,7 @@ package practices.arrays;
 
 import java.util.Scanner;
 
-public class Arrays05 {
+public class CountNumber {
     public static void main(String[] args) {
 
 

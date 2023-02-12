@@ -2,7 +2,7 @@ package practices.arrays;
 
 import java.util.Arrays;
 
-public class Arrays06 {
+public class SpecificElementBinarySearch {
 
     public static void main(String[] args) {
 

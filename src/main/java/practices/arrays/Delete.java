@@ -2,7 +2,7 @@ package practices.arrays;
 
 import java.util.Arrays;
 
-public class Arrays02 {
+public class Delete {
     public static void main(String[] args) {
 
         //Example 1: Create a String array with 5 elements, delete the elements whose length is less than 5

@@ -1,7 +1,8 @@
 package practices.arrays;
 
-public class Q03 {
-    //Type code to add books to library with its info(bookName, authorName, pageNumber), then create a method to show
+public class Library {
+    //Type code to add books to library with its info(bookName, authorName, pageNumber),
+    // then create a method to show
     // information of the book
 
     String bookName;
@@ -13,17 +14,17 @@ public class Q03 {
 
     public static void main(String[] args) {
 
-        Q03 book1= new Q03("Crime and Punishment", "Dostoyevski", 650);
+        Library book1= new Library("Crime and Punishment", "Dostoevsky", 650);
 
-        //Book Name: Crime and PunishmentAuthor Name: DostoyevskiNumber Of Page650Book ID: Cr1
+        //Book Name: Crime and PunishmentAuthor Name: DostoevskyNumber Of Page650Book ID: Cr1
 
-        Q03 book2=new Q03("Pride and Prejudice", "Jane Austin", 400);
+        Library book2=new Library("Pride and Prejudice", "Jane Austin", 400);
 
         book1.display();
         book2.display();//Book Name: Pride and Prejudice Author Name: Jane Austin Number Of Page400 Book ID: Pr2
 
     }
-    Q03(String bookName, String authorName, int numOfPage){
+    Library(String bookName, String authorName, int numOfPage){
 
         this.bookName=bookName;
         this.authorName=authorName;

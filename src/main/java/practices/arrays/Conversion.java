@@ -2,7 +2,7 @@ package practices.arrays;
 
 import java.util.Arrays;
 
-public class Q01 {
+public class Conversion {
 
     //Convert the "Congratulations" word to "sn**t*l*rgn*C" by using Array methods.
 

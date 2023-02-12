@@ -2,7 +2,7 @@ package practices.loops.forloop;
 
 import java.util.Scanner;
 
-public class ForLoop_CharBetween{
+public class ForLoop_CharBetween {
 
     //Ask user to enter 2 chars and print on console the chars between them.
     public static void main(String[] args) {
@@ -20,24 +20,6 @@ public class ForLoop_CharBetween{
             System.out.print((char) i + " ");
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

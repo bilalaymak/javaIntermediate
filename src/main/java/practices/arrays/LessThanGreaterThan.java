@@ -2,7 +2,7 @@ package practices.arrays;
 
 import java.util.Arrays;
 
-public class Arrays01 {
+public class LessThanGreaterThan {
     public static void main(String[] args) {
 
 

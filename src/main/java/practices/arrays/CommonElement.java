@@ -3,7 +3,7 @@ package practices.arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Arrays04 {
+public class CommonElement {
     public static void main(String[] args) {
 
         /*
