@@ -1,4 +1,4 @@
-package day21inheritanceoverriding.animal;
+package day21inheritance.animalvariableandmethodcall;
 
 public class Cat extends Mammal {
 

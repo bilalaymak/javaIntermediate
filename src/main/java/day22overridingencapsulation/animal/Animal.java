@@ -3,6 +3,7 @@ package day22overridingencapsulation.animal;
 public class Animal {
 
  /*
+                                  OVERRIDING
         1)Sometimes using method directly from parent class may not be enough for us.
           We may need the method to specify.
           When we need the method to specify, we change the method body.

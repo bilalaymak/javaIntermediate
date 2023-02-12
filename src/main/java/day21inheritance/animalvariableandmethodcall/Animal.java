@@ -1,4 +1,4 @@
-package day21inheritanceoverriding.animal;
+package day21inheritance.animalvariableandmethodcall;
 
 public class Animal {
     public int age = 4;

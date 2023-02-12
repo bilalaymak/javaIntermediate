@@ -5,8 +5,8 @@ public class Rectangle extends Area{
 
 
     @Override
-    double calculateArea(double height, double lenght) {
-        return height * lenght;
+    double calculateArea(double height, double length) {
+        return height * length;
     }
 
 

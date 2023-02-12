@@ -2,6 +2,7 @@ package day23encapsulationabstraction.student;
 
 public class Student{
     /*
+    encapsulation is getter and setter
         1)When we type code, we may need to hide some data for some reasons.
           "Encapsulation" means "hiding data"
         2)After encapsulating a data, if you need, you may "read" the value

@@ -1,4 +1,4 @@
-package day21inheritanceoverriding.vehicle;
+package day21inheritance.vehicleconstructorandmethodcall;
 
 public class Honda extends Vehicle{
 
