@@ -4,16 +4,18 @@ public interface Ac {
 
     public abstract void cool();
 
-    void heat();//Even I did not type "public" and "abstract" for the "heat()" it is "public" and "abstract"
+    void heat();//Even I did not type "public" and "abstract" for the "heat()"
+    // it is "public" and "abstract"
 
     //1) By using "default" keyword before "return type" of the method, you can create "method with body"
     // in an interface
     //2) When you create "bacteriaKiller() default method", "Honda Concrete Child Class" will not complain,
     //because Overriding is mandatory for "abstract methods"
-    //but "bacteriaKiller() default method" is not abstract.
+    //but "bacteriaKiller() default method" is not abstract. !!!
     //3)"default" in "bacteriaKiller() method" is not "access modifier",
     //it is a new keyword to create "method with body" in an interface
-    default void bacteriaKiller(){
+    default void bacteriaKiller(){//default keyword is not access modifier here, it is something different
+        //to make a method concrete(method with body) in an interface
         System.out.println("Ac's kill the bacteria %99.9...");
     }
 

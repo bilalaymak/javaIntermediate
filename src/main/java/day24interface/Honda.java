@@ -29,9 +29,8 @@ public class Honda implements Ac, Engine{
 
         4)If you use a huge parent class, when any part is broken in the huge parent class
         the structure will be down.
-          But if you create multiple small parents
-          when any parent is broken just a small functionality will be down.
-          This is preferable.
+          But if you create multiple small parents when any parent is broken
+          just a small functionality will be down. This is preferable.
         5)If you make a class dependent on another class completely(Tight Coupling)
         when the other class is broken your class will be broken as well, this is not good.
           That is why we prefer to create almost independent classes, this structure is called
