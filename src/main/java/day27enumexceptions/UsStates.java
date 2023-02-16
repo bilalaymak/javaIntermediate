@@ -1,4 +1,4 @@
-package day26collections;
+package day27enumexceptions;
 
 public enum UsStates {
 
@@ -76,7 +76,17 @@ public enum UsStates {
         this.abbreviation = abbreviation;
         this.capital = capital;
     }
+    public String getStateName() {
+        return stateName;
+    }
 
+    public String getAbbreviation() {
+        return abbreviation;
+    }
+
+    public String getCapital() {
+        return capital;
+    }
 
 
 

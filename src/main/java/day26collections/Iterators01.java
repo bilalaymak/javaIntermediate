@@ -16,44 +16,73 @@ public class Iterators01 {
         5)There are two types of iterators i)Iterator: It can "just remove" the elements, it is impossible to update and add.
                                                        It works just from left to the right
                                            ii)ListIterator: It can remove and update and add the elements
-                                                            It works just from left to the right and right to left
+                                                            It works both from left to the right and right to left
      */
 
     public static void main(String[] args) {
 
         //Let us use Iterator:
-        List<String> myList = new ArrayList<>();
-        myList.add("Tom");
-        myList.add("Jim");
-        myList.add("Clara");
-        myList.add("Angie");
-        myList.add("Mark");
-        System.out.println(myList);// [Tom, Jim, Clara, Angie, Mark]
+        List<String> myList1 = new ArrayList<>();
+        myList1.add("Tom");
+        myList1.add("Ajda");
+        myList1.add("Brad");
+        myList1.add("Jim");
+        myList1.add("Aaron");
+        myList1.add("Cindy");
 
-        Iterator<String> myItr = myList.iterator(); // [ Tom,   Jim,   Clara,   Angie,   Mark ]
+        System.out.println("myList = " + myList1);//[Tom, Ajda, Brad, Jim, Aaron, Cindy]
 
-        while(myItr.hasNext()){
+
+
+        Iterator<String> myItr = myList1.iterator(); // [ Tom,   Jim,   Clara,   Angie,   Mark ]
+        System.out.println("myItr.next() = " + myItr.next());//Tom
+        System.out.println("myItr.hasNext() = " + myItr.hasNext());//true
+        System.out.println("myItr.next() = " + myItr.next());//Ajda
+        System.out.println("myItr.hasNext() = " + myItr.hasNext());//true
+        System.out.println("myItr.next() = " + myItr.next());//Brad
+        System.out.println("myItr.hasNext() = " + myItr.hasNext());//true
+        System.out.println("myItr.next() = " + myItr.next());//Jim
+        System.out.println("myItr.hasNext() = " + myItr.hasNext());//true
+        System.out.println("myItr.next() = " + myItr.next());//Aaron
+        System.out.println("myItr.hasNext() = " + myItr.hasNext());//true
+        System.out.println("myItr.next() = " + myItr.next());//Cindy
+        System.out.println("myItr.hasNext() = " + myItr.hasNext());//false
+        //System.out.println("myItr.next() = " + myItr.next()); //==>NoSuchElementException because pointer shows nothing/hasNext() method returns false
+
+        List<String> yourList = new ArrayList<>();
+        yourList.add("Tom");
+        yourList.add("Ajda");
+        yourList.add("Brad");
+        yourList.add("Jim");
+        yourList.add("Aaron");
+        yourList.add("Cindy");
+
+        System.out.println("yourList = " + yourList);
+
+        Iterator<String> yourItr = yourList.iterator();
+
+        while(yourItr.hasNext()){
             myItr.next();
             myItr.remove();
         }
-        System.out.println(myList);
+        System.out.println(myList1);
 
         //Let us use ListIterator:
-        List<String> yourList = new ArrayList<>();
-        yourList.add("Tom");
-        yourList.add("Jim");
-        yourList.add("Clara");
-        yourList.add("Angie");
-        yourList.add("Mark");
-        System.out.println(yourList);// [Tom, Jim, Clara, Angie, Mark]
+        List<String> yourList1 = new ArrayList<>();
+        yourList1.add("Tom");
+        yourList1.add("Jim");
+        yourList1.add("Clara");
+        yourList1.add("Angie");
+        yourList1.add("Mark");
+        System.out.println(yourList1);// [Tom, Jim, Clara, Angie, Mark]
 
-        ListIterator<String> yourListItr = yourList.listIterator();// [ Tom,   Jim,   Clara,   Angie,   Mark ]
+        ListIterator<String> yourListItr = yourList1.listIterator();// [ Tom,   Jim,   Clara,   Angie,   Mark ]
 
         while(yourListItr.hasNext()){
             String el = yourListItr.next();
             yourListItr.set(el + "!...");
         }
-        System.out.println(yourList);
+        System.out.println(yourList1);
 
         //Example: Print the yourList elements on the console from the last element to the first element
         //         in the same line with a space between two consecutive elements

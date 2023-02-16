@@ -34,7 +34,10 @@ public class Sets01 {
         hs.add(14);//When you add same element repeatedly, Java does not give error. It puts the repeated element just once into the set.
         hs.add(null);
         hs.add(null);
-        System.out.println(hs);// [32, 1, 3, 19, 5, 12, 45, 14]
+        System.out.println(hs);// [32, null, 1, 3, 19, 5, 12, 45, 14]
+
+        //if order is important for you, use linked hashset
+        //if order is not important, use hashset
 
         LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
         lhs.add(12);
@@ -56,15 +59,21 @@ public class Sets01 {
         myLhs.add(14);
         myLhs.add(50);
         myLhs.add(32);
-        System.out.println(myLhs);
+        myLhs.add(null);
+        System.out.println(myLhs);//[12, 30, 14, 50, 32, null]
 
         boolean r1 = lhs.retainAll(myLhs);// retainAll() method does not touch myLhs which is the method inside the parenthesis
+        //gives the elements from first collection which is common with the second collection
+        //it removes different elements from the first collection
+        //it does not touch second(inside the parenthesis) collection's elements
+
 
         System.out.println(r1);// true
-        System.out.println(lhs);// [12, 14, 32]
-        System.out.println(myLhs);// [12, 30, 14, 50, 32]
+        System.out.println(lhs);// [12, 14, 32, null]
+        //retainAll() method gives common elements, and deletes the other elements from lhs
+        System.out.println(myLhs);// [12, 30, 14, 50, 32. null] retainAll() method did not touch myLhs
 
-        /*
+        /*         TREE-SET
             You have all products set, you have discounted products set
             You want to see discounted products in the all products set
 
@@ -83,7 +92,9 @@ public class Sets01 {
         ts.add(19);
         ts.add(5);
         ts.add(-3);
-        System.out.println(ts);
+        System.out.println(ts);//[-3, 2, 5, 13, 19, 24]
+        // ==>TreeSet puts the elements in natural order,
+        // putting elements in natural order needs too much time, that is why TreeSet is so slow.
 
         /*
             Interview Question: What do you use to store unique elements in natural order?
@@ -100,6 +111,7 @@ public class Sets01 {
         long t1 = System.nanoTime();
 
         TreeSet<String> ts1 = new TreeSet<>();
+
         ts1.add("abc@gmail.com");
         ts1.add("caf@gmail.com");
         ts1.add("acd@gmail.com");
@@ -131,7 +143,7 @@ public class Sets01 {
         long t3 = System.nanoTime();
 
         System.out.println("Just TreeSet: " + (t2 - t1));
-        System.out.println("HashSet with TreeSet: " + (t3 - t2));
+        System.out.println("HashSet with TreeSet: " + (t3 - t2));//second way is faster
     }
 
 
