@@ -18,7 +18,14 @@ public class EnumRunner {
             System.out.println(w + "-->" + w.getStateName() + "-->" + w.getAbbreviation() + "-->" + w.getCapital()  );
         }
 
+        System.out.println("*****************");
+        //print all states that has length of name is more than 10
 
+        for (UsStates w: UsStates.values()){
+            if (w.getStateName().length()>10){
+                System.out.println(w.getStateName());
+            }
+        }
 
 
 
