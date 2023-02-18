@@ -62,7 +62,7 @@ public class StringBuilder01 {
         sb1.replace(2,5,"1");
         System.out.println("replaced sb1 = " + sb1);//replaced sb1 = Ja1va is love!
 
-        sb1.deleteCharAt(2);
+        sb1.deleteCharAt(0);
         System.out.println("deleted char at sb1 = " + sb1);//deleted char at sb1 = Java is love!
 
         sb1.delete(8,12);

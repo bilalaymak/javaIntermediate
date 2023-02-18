@@ -1,4 +1,4 @@
-package atmproject;
+package practices.projects.atmproject;
 
 import java.util.Scanner;
 

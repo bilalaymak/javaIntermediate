@@ -1,6 +1,6 @@
 package practices.methodcreation;
 
-public class Q01 {
+public class AverageCalculation {
 
   /*
          Create a method to calculate 4 students' 6, 4, 3 and 5 exams' average respectively.
