@@ -1,4 +1,4 @@
-package practices.projects.calculatesalary;
+package projects.calculatesalary;
 
 public class InterfaceRunner {
  /*

@@ -1,4 +1,4 @@
-package practices.projects.budget;
+package projects.budget;
 
 public class StaticBudget {
 

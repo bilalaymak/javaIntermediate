@@ -1,4 +1,4 @@
-package practices.projects.nutritionexercise;
+package projects.nutritionexercise;
 
 import java.util.Arrays;
 
