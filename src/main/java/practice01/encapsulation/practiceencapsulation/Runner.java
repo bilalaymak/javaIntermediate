@@ -1,4 +1,4 @@
-package day23encapsulationabstraction.practiceencapsulation;
+package practice01.encapsulation.practiceencapsulation;
 
 public class Runner {
     public static void main(String[] args) {

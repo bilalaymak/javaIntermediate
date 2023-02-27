@@ -1,6 +1,6 @@
-package day23encapsulationabstraction.practiceencapsulation;
+package practice01.encapsulation.practiceencapsulation;
 
-public class NativeStudent extends Student{
+public class ForeignStudent extends Student{
 
     private int id;
     private String language;
