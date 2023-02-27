@@ -47,4 +47,6 @@ public class Student{
     public void setPsychologicalIssues(String psychologicalIssues) {
         this.psychologicalIssues = psychologicalIssues;
     }
+
+
 }

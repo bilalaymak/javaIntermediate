@@ -11,7 +11,9 @@ public class LinkedList01 {
           this is too many tasks for Java, that is why
           we do not prefer ArrayLists in adding operations
         3)LinkedList does not use indexes, LinkedList works with "nodes"
-          Nodes have two parts i)Data Part ii)Pointer Part
+          Nodes have two parts
+          i)Data Part
+          ii)Pointer Part
           Pointer points the next element
           Last node is called as "Tail" and LinkedList has head points the first node
         4)When you remove any element Java changes just the pointers,
@@ -45,6 +47,11 @@ public class LinkedList01 {
         names.addLast("Brad");
         names.add("Ali");
         System.out.println(names);// [Angie, Ali, Brad, Jim, Brad, Brad, Ali]
+
+
+
+
+
 
         //Retrieves and removes the first element of this list.(Cut + Paste)
         String f1 = names.remove();
