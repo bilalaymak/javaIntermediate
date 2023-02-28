@@ -2,30 +2,13 @@ package practice01.oop.oopwithlayeredapp.dataaccess;
 
 import practice01.oop.oopwithlayeredapp.entities.Product;
 
-public class JdbcProductDao implements ProductDao {  //Dao means Data Access object
+public class HibernateProductDao implements ProductDao {
+
 
     public void add(Product product){
         //sadece ve sadece db arisim code lari buraya yazilir (SQL)
-        System.out.println("JDBC ile veritabanina eklendi");
+        System.out.println("Hibernate ile veritabanina eklendi");
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
