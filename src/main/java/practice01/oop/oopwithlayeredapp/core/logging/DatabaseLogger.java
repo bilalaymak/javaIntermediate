@@ -1,4 +1,4 @@
-package practice01.oop.oopwithlayeredapp.core.loging;
+package practice01.oop.oopwithlayeredapp.core.logging;
 
 public class DatabaseLogger implements Logger {
 

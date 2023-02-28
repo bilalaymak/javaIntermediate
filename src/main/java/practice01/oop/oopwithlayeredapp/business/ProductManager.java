@@ -1,7 +1,7 @@
 package practice01.oop.oopwithlayeredapp.business;
 
-import practice01.oop.oopwithlayeredapp.core.loging.Logger;
-import practice01.oop.oopwithlayeredapp.dataaccess.JdbcProductDao;
+import practice01.oop.oopwithlayeredapp.core.logging.Logger;
+import practice01.oop.oopwithlayeredapp.dataaccess.HibernateProductDao;
 import practice01.oop.oopwithlayeredapp.dataaccess.ProductDao;
 import practice01.oop.oopwithlayeredapp.entities.Product;
 
@@ -30,11 +30,13 @@ public class ProductManager {
             throw new Exception("urun fiyati 10'dan kucuk olamaz");
         }
 
-        ProductDao productDao = new JdbcProductDao();//here we add the product to the database
+        ProductDao productDao = new HibernateProductDao();//here we add the product to the database
         productDao.add(product);
 
         for (Logger logger : loggers) {    //[db,mail]
-            logger.log(product.getName());
+            logger.log(product.getName()); //here product.getName() stands for
+                                           // the abstract method in the Logger interface "void log(String data);"
+                                           // as "String data"
         }
 
 
