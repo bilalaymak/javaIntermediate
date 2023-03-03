@@ -1,4 +1,4 @@
-package practice01.oop.oopwithlayeredapp.core.logging;
+package projects.oopwithlayeredapp.core.logging;
 
 public class Filelogger implements Logger {
 

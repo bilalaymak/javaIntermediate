@@ -1,9 +1,9 @@
-package practice01.oop.oopwithlayeredapp.business;
+package projects.oopwithlayeredapp.business;
 
-import practice01.oop.oopwithlayeredapp.core.logging.Logger;
-import practice01.oop.oopwithlayeredapp.dataaccess.HibernateProductDao;
-import practice01.oop.oopwithlayeredapp.dataaccess.ProductDao;
-import practice01.oop.oopwithlayeredapp.entities.Product;
+import projects.oopwithlayeredapp.core.logging.Logger;
+import projects.oopwithlayeredapp.dataaccess.HibernateProductDao;
+import projects.oopwithlayeredapp.dataaccess.ProductDao;
+import projects.oopwithlayeredapp.entities.Product;
 
 public class ProductManager {
 

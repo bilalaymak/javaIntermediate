@@ -1,4 +1,4 @@
-package practice01.oop.oopwithlayeredapp.entities;
+package projects.oopwithlayeredapp.entities;
 
 public class Product {
 

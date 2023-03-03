@@ -1,4 +1,4 @@
-package practice01.encapsulation.practiceencapsulation;
+package projects.encapsulation.practiceencapsulation;
 
 public class ForeignStudent extends Student{
 

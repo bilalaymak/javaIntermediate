@@ -1,5 +1,7 @@
 package practice01;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 public class Q01 {
@@ -21,6 +23,8 @@ public class Q01 {
 
             System.out.println();
             System.out.println(strB.reverse());//esrever
+
+
 
         }
 

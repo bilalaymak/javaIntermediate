@@ -14,10 +14,21 @@ public class AnimalRunner {
         myDog.drink();
         myDog.bark();
 
-        Bird myBird = new Bird();
+        Bird myBird = (Bird) new Mammal();
+
         myBird.eat();
         myBird.drink();
         myBird.tweet();
+
+        Animal[] myAnimalArray = {myCat,myBird,myDog};
+        for (Animal animal : myAnimalArray) {
+            animal.eat();
+            animal.drink();
+
+        }
+
+
+
 
     }
 

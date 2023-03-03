@@ -1,6 +1,6 @@
-package practice01.oop.oopwithlayeredapp.dataaccess;
+package projects.oopwithlayeredapp.dataaccess;
 
-import practice01.oop.oopwithlayeredapp.entities.Product;
+import projects.oopwithlayeredapp.entities.Product;
 
 public class JdbcProductDao implements ProductDao {  //Dao means Data Access object
 

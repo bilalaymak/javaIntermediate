@@ -18,6 +18,7 @@ public class LinkedlistPractice01 {
         names.add("Ali");
         System.out.println(names);// [Angie, Ali, Brad, Jim, Brad, Brad, Ali
 
+
         //remove()method
         names.remove();
         System.out.println("names = " + names);//names = [Ali, Brad, Jim, Brad, Brad, Ali]

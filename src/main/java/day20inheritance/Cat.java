@@ -1,6 +1,6 @@
 package day20inheritance;
 
-public class Cat extends Animal{
+public class Cat extends Mammal{
 
 
     public void meow(){
