@@ -11,7 +11,7 @@ public class Lambda01 {
     3) "t-> code" is called "Lambda Expression"
         In "Functional Programming" we may use "Lambda Expression" but it is not recommended.
         We will prefer to use "Method Reference", We will learn it in the next sessions.
-     */
+    */
 
     public static void main(String[] args) {
         List<Integer> numbers = new ArrayList<>();
@@ -161,6 +161,7 @@ public class Lambda01 {
     public static int findMin2(List<Integer> myList) {//12 9 122 14 9 10 4 12 15
 
         return myList.stream().distinct().reduce(myList.get(0), (t, u) -> t < u ? t : u);
+        //distinct means take the unrepeated elements of the stream
 
     }
 
